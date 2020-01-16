@@ -96,6 +96,19 @@
 
 }
 
+.home-prompt-col a {
+    border: 2px solid $yellow;
+    color: $yellow;
+}
+
+.home-prompt-artwork {
+    color: $yellow;
+}
+
+.home-prompt-title {
+    color: $yellow;
+}
+
 ::selection {
     color: white;
     background-color: $yellow;
