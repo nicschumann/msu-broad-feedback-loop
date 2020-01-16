@@ -61,7 +61,7 @@ class WS_Site_Admin {
         add_post_type_support('prompts', 'comments');
         remove_menu_page('index.php');  // Remove the dashboard link from the Wordpress sidebar.
         remove_menu_page('edit.php'); // remove default post type.
-        #remove_menu_page('edit.php?post_type=page'); // remove default page type.
+        remove_menu_page('edit.php?post_type=page'); // remove default page type.
         remove_menu_page('upload.php'); // remove default post type.
 
         add_menu_page('artworks', 'Artworks', 'manage_options', 'edit-tags.php?taxonomy=artworks&post_type=prompts', '', 'dashicons-format-image', 5);
