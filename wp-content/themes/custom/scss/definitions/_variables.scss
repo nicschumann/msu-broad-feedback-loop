@@ -1,0 +1,66 @@
+
+/* Variables */
+
+//brand colors
+$brand: white;
+$yellow: #252525;
+$khaki: #F7F5F2;
+$slate: $yellow;
+
+
+//grays
+$dark: #1a2f36;
+$ultra-light: #F5F5F5;
+$light: lighten($brand,45%);
+$light: desaturate($light, 30%);
+$medium-light: #9B9B9B;
+$medium: lighten($slate, 50%);
+$medium: desaturate($medium, 12%);
+$medium-dark: #555555;
+$tan: #F7F5F2;
+
+
+//utility colors
+$error: #e8756f;
+
+
+//sizes
+$nav-height: 80px;
+$nav-height-md: 90px;
+$nav-height-after: 80px;
+$nav-drop: $nav-height;
+$nav-drop-after: $nav-height - 1px;
+$nav-height-mobile: 60px;
+$sitewide-alert-height: 50px;
+$container-fluid-max-width: none;
+$container-fluid-padding: 80px;
+$container-fluid-padding-md: 40px;
+$container-fluid-padding-mobile: 15px;
+$container-fluid-sum: $container-fluid-padding * 2;
+$container-fluid-sum-mobile: $container-fluid-padding-mobile * 2;
+
+
+//transitions
+$modal-transition: .4s;
+
+
+//breakpoints
+$xs: 575px;
+$sm: 767px;
+$md: 991px;
+$lg: 1199px;
+
+
+//site
+$body-background-color: white;
+
+$font-main: 'Akkurat', Helvetica, Arial, Sans-serif;
+$font-italic: 'Akkurat Italic', Helvetica, Arial, Sans-serif;
+$font-bold: 'Akkurat Bold', Helvetica, Arial, Sans-serif;
+$font-bold-italic: 'Akkurat Bold Italic', Helvetica, Arial, Sans-serif;
+$font-light: 'Akkurat Light', Helvetica, Arial, Sans-serif;
+$font-light-italic: 'Akkurat Light Italic', Helvetica, Arial, Sans-serif;
+$font-secondary: 'Akkurat', Georgia, Times New Roman, Serif;
+$font-secondary-italic: 'Akkurat Italic', Georgia, Times New Roman, Serif;
+$font-secondary-bold: 'Akkurat Bold', Georgia, Times New Roman, Serif;
+$font-secondary-bold-italic: 'Akkurat Bold Italic', Georgia, Times New Roman, Serif;

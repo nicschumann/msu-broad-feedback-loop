@@ -1,0 +1,102 @@
+.feedback-prompt-artwork-artist {
+    color: $yellow;
+}
+
+.feedback-prompt-artwork-text {
+    color: $yellow;
+}
+
+.feedback-input-helper {
+    color: $yellow;
+    &:hover {
+        color:$yellow;
+    }
+}
+
+#feedback-input-submit {
+    color: white;
+}
+
+#feedback-about-button {
+    color: white;
+    background-color: $yellow;
+}
+
+#feedback-responses-label {
+    color: $yellow;
+
+    .feedback-responses-toggle {
+        color:white;
+    }
+}
+
+.feedback-responses-arrow:after {
+    color: $dark;
+}
+
+#feedback-responses {
+    background-color: $yellow;
+    .feedback-responses-list * {
+        color: $yellow;
+    }
+}
+
+#feedback-responses.open {
+    .feedback-responses-label a {
+        background-color: white;
+        color: $yellow;
+    }
+
+    #feedback-responses-label {
+        .feedback-responses-toggle {
+            background-color: white;
+            color: $yellow;
+        }
+    }
+}
+
+.response-slide-content {
+    color: white;
+}
+
+.response-slide-author {
+    color: white;
+}
+
+#error-pane {
+    background-color: $errors-color-background;
+
+    .icon:before { color: $error; }
+}
+
+
+#feedback-input-thank-you-pane {
+    background-color: white;
+
+    .feedback-input-thank-you-header-icon:before {
+        color: $thankyou-color;
+    }
+
+    #feedback-input-thank-you-done span {
+        color: white;
+    }
+}
+
+#model-close .icon:before {
+    color: white;
+}
+
+#feedback-responses {
+    .feedback-responses-mask-top {
+        background: linear-gradient(to bottom, transparentize($yellow, 0) 0%, transparentize($yellow, 0) 30%, transparentize($yellow, 1) 100%);
+    }
+    .feedback-responses-mask-bottom {
+        background: linear-gradient(to top, transparentize($yellow, 0) 0%, transparentize($yellow, 0) 30%, transparentize($yellow, 1) 100%);
+    }
+
+}
+
+::selection {
+    color: white;
+    background-color: $yellow;
+}
