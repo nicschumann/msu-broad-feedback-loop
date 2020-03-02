@@ -1,7 +1,8 @@
 'use strict';
 
 const WPAPI = require('wpapi');
-const rest_endpoint = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/wp-json';
+const wordpress_base = '/feedbackloop' // Production Environment Only; Change to '' in local development
+const rest_endpoint = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + wordpress_base +'/wp-json';
 
 class WPRequestManager {
 

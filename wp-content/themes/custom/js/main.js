@@ -27,7 +27,7 @@ import { submissionWorkflow } from './submission-workflow.js';
 
 
 //must use
-livereload();
+// livereload();
 loading(config.loading);
 linksNewtab(config.linksNewtab);
 viewportLabel(config.viewportLabel);
